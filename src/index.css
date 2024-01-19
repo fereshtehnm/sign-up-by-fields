@@ -15,14 +15,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-*,
-html {
+
+*, html {
   direction: rtl;
   @apply text-right;
 }
 
 body {
-  @apply bg-[#F7F7F7] !important;
-  overflow-x: hidden;
+  @apply p-4 overflow-x-hidden !important;
 }
 
+.producerGroup input {
+  visibility:hidden;
+}

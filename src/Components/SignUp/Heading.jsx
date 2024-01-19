@@ -1,24 +1,11 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
-import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
+import LightTooltip from './LightToolTip';
 
-
-const LightTooltip = styled(({ className, ...props }) => (
-    <Tooltip {...props} classes={{ popper: className }} />
-))(({ theme }) => ({
-    [`& .${tooltipClasses.tooltip}`]: {
-        backgroundColor: '#D2EAD8',
-        color: '#5E9A6C',
-        boxShadow: theme.shadows[1],
-        fontSize: 10,
-        maxWidth: 100,
-    },
-}));
 
 const Heading = () => {
     return (
-        <div>
-            <div>
+        <div className='pb-12'>
+            <div className='py-4 px-1'>
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 16H27" stroke="#272B28" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     <path d="M18 7L27 16L18 25" stroke="#272B28" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -27,7 +14,7 @@ const Heading = () => {
             <div>
                 <h2 className='text-black text-2xl inline-flex align-middle	'>
                     زمینه فعالیت اختصاصی
-                    <LightTooltip disableFocusListener  title="میتوانید یک یا چند گزینه انتخاب نمایید" placement="bottom-end" arrow>
+                    <LightTooltip disableFocusListener title="میتوانید یک یا چند گزینه انتخاب نمایید" placement="bottom-end" arrow enterTouchDelay={0}>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='pt-1'>
                             <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#5E9A6C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.25 11.25H12V16.5H12.75" stroke="#5E9A6C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
