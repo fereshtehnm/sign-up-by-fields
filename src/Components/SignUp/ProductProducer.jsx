@@ -13,7 +13,7 @@ const ProductProducer = () => {
 
   return (
     <div>
-      <h3 className='text-black text-xl inline-flex align-middle	'>
+      <h3 className='text-black text-[16px] inline-flex align-middle	'>
         تولید کننده محصول
       </h3>
       <RadioGroup inputList={producersList} line='single' />

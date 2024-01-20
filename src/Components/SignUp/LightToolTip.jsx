@@ -8,8 +8,9 @@ const LightTooltip = styled(({ className, ...props }) => (
     [`& .${tooltipClasses.tooltip}`]: {
         backgroundColor: '#D2EAD8',
         color: '#5E9A6C',
-        fontSize: 14,
-        maxWidth: 150,
+        fontSize: 12,
+        maxWidth: 140,
+        placement: "center",
     },
 }));
 export default LightTooltip;

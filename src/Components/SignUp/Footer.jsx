@@ -2,15 +2,13 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div>
-            <div>
-                <button class="bg-darkGreen hover:bg-white text-white hover:text-darkGreen hover:border text-center	text-xl py-2 px-4 rounded-md w-full">
-                    ثبت نام
-                </button>
-            </div>
-            <p className='text-sm'>با ثبت نام در اپلیکیشن ما <a className='text-darkGreen'>قوانین و شرایط</a>  ما رو می‌پذیرید. 
+        <footer className='w-full p-5 flex flex-col justify-center items-center fixed bottom-0 left-0'>
+            <button class="bg-darkGreen hover:bg-white text-white hover:text-darkGreen hover:border text-center	text-[16px]  p-4 m-3 rounded-md w-full">
+                ثبت نام
+            </button>
+            <p className='text-[12px]'>با ثبت نام در اپلیکیشن ما <a className='text-darkGreen'>قوانین و شرایط</a>  ما رو می‌پذیرید.
             </p>
-        </div>
+        </footer>
     )
 }
 

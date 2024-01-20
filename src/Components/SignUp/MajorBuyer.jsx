@@ -13,7 +13,7 @@ const MajorBuyer = () => {
 
   return (
     <div>
-      <h3 className='text-black text-xl inline-flex align-middle	'>
+      <h3 className='text-black text-[16px] inline-flex align-middle	'>
         خریدار عمده
       </h3>
       <RadioGroup inputList={buyersList} line='multiple' />

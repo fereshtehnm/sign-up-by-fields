@@ -7,12 +7,14 @@ import Footer from './Footer';
 
 const SignUp = () => {
   return (
-    <div>
-      <Heading />
-      <ProductProducer />
-      <MajorBuyer />
-      <Services />
-      <Footer />
+    <div className=' min-h-screen '>
+      <main>
+        <Heading />
+        <ProductProducer />
+        <MajorBuyer />
+        <Services />
+      </main>
+      <Footer/>
     </div>
   )
 }

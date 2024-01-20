@@ -12,7 +12,7 @@ const Heading = () => {
                 </svg>
             </div>
             <div>
-                <h2 className='text-black text-2xl inline-flex align-middle	'>
+                <h2 className='text-black text-[20px] inline-flex align-middle'>
                     زمینه فعالیت اختصاصی
                     <LightTooltip disableFocusListener title="میتوانید یک یا چند گزینه انتخاب نمایید" placement="bottom-end" arrow enterTouchDelay={0}>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='pt-1'>
