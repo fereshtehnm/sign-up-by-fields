@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/%7Bsign-up-by-fields%7D/static/css/main.141e7894.css",
+    "main.js": "/%7Bsign-up-by-fields%7D/static/js/main.b0c528e7.js",
+    "static/js/787.88dfdeb5.chunk.js": "/%7Bsign-up-by-fields%7D/static/js/787.88dfdeb5.chunk.js",
+    "static/media/Iranian Sans.ttf": "/%7Bsign-up-by-fields%7D/static/media/Iranian Sans.8c2ed8fb0154947263c5.ttf",
+    "index.html": "/%7Bsign-up-by-fields%7D/index.html",
+    "main.141e7894.css.map": "/%7Bsign-up-by-fields%7D/static/css/main.141e7894.css.map",
+    "main.b0c528e7.js.map": "/%7Bsign-up-by-fields%7D/static/js/main.b0c528e7.js.map",
+    "787.88dfdeb5.chunk.js.map": "/%7Bsign-up-by-fields%7D/static/js/787.88dfdeb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.141e7894.css",
+    "static/js/main.b0c528e7.js"
+  ]
+}
