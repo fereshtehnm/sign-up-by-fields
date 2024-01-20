@@ -6,7 +6,7 @@ function Footer() {
             <button class="bg-darkGreen hover:bg-white text-white hover:text-darkGreen hover:border text-center	text-[16px]  p-4 m-3 rounded-md w-full">
                 ثبت نام
             </button>
-            <p className='text-[12px]'>با ثبت نام در اپلیکیشن ما <a className='text-darkGreen'>قوانین و شرایط</a>  ما رو می‌پذیرید.
+            <p className='text-[12px]'>با ثبت نام در اپلیکیشن ما <button href='#' className='text-darkGreen underline'>قوانین و شرایط</button>  ما رو می‌پذیرید.
             </p>
         </footer>
     )
