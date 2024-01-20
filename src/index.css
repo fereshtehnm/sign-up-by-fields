@@ -24,7 +24,3 @@ code {
 body {
   @apply p-4 overflow-x-hidden !important;
 }
-
-.producerGroup input {
-  visibility:hidden;
-}

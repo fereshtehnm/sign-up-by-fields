@@ -3,16 +3,16 @@ import Heading from './Heading';
 import ProductProducer from './ProductProducer';
 import MajorBuyer from './MajorBuyer';
 import Services from './Services';
-import SubmitButton from './SubmitButton';
+import Footer from './Footer';
 
 const SignUp = () => {
   return (
     <div>
-        <Heading />
-        <ProductProducer />
-        <MajorBuyer />
-        <Services />
-        <SubmitButton />
+      <Heading />
+      <ProductProducer />
+      <MajorBuyer />
+      <Services />
+      <Footer />
     </div>
   )
 }

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const RadioButton = ({ text, forId, selectedOption }) => {
     return (
-        <label className={`p-2  rounded-md text-xl
+        <label className={`p-2 rounded-md text-xl
             ${selectedOption == forId ? ' border-darkGreen bg-lightGreen border-solid border-2' : 'bg-lightGray'}`}
             for={forId}
         >
@@ -11,4 +11,4 @@ const RadioButton = ({ text, forId, selectedOption }) => {
     )
 }
 
-export default RadioButton
+export default RadioButton;
