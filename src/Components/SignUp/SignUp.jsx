@@ -8,7 +8,7 @@ import Footer from './Footer';
 const SignUp = () => {
   return (
     <div className=' w-full'>
-      <main className='min-h-screen pb-20'>
+      <main className='min-h-screen pb-20 mb-20'>
         <Heading />
         <ProductProducer />
         <MajorBuyer />
