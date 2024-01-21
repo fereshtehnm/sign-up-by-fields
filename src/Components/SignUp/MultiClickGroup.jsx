@@ -15,11 +15,11 @@ const MultiClickGroup = ({ inputList, line }) => {
     };
 
     return (
-        <div className={`py-5 flex ${line === 'multiple' ? 'flex-wrap' : 'justify-between'} max-w-[20rem]`}>
+        <div className={`py-5 flex flex-wrap max-w-[24rem] sm:max-w-[35rem]`}>
             {Object.entries(inputList).map(([key, value]) => (
-                <div key={key} className={`${line === 'multiple' && 'p-1 pl-4 pb-7'}`}>
+                <div key={key} className= 'p-1 pl-1 pb-6'>
                     <CheckButton text={value} forId={key} isSelected={selectedOptions.includes(key)} />
-                    <div className="flex items-center">
+                    <div>
                         <input
                             id={key}
                             type="checkbox"

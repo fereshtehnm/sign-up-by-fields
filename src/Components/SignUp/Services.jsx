@@ -11,7 +11,7 @@ const Services = () => {
   }
 
   return (
-    <div>
+    <div className='max-w-[20rem] sm:max-w-full mb-10'>
       <h3 className='text-black text-[16px] inline-flex align-middle'>
         خدمات
       </h3>

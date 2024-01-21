@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 const SignUp = () => {
   return (
-    <div className=' min-h-screen '>
+    <div className='  min-h-svh w-full'>
       <main>
         <Heading />
         <ProductProducer />

@@ -1,6 +1,5 @@
 import React from 'react';
-import RadioGroup from './RadioGroup';
-
+import MultiClickGroup from './MultiClickGroup';
 
 const MajorBuyer = () => {
 
@@ -16,7 +15,7 @@ const MajorBuyer = () => {
       <h3 className='text-black text-[16px] inline-flex align-middle	'>
         خریدار عمده
       </h3>
-      <RadioGroup inputList={buyersList} line='multiple' />
+      <MultiClickGroup inputList={buyersList} line='multiple' />
     </div>
   )
 }
