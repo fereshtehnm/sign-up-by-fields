@@ -7,8 +7,8 @@ import Footer from './Footer';
 
 const SignUp = () => {
   return (
-    <div className='  min-h-svh w-full'>
-      <main>
+    <div className=' w-full'>
+      <main className='min-h-screen pb-20'>
         <Heading />
         <ProductProducer />
         <MajorBuyer />
@@ -19,4 +19,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default SignUp;
