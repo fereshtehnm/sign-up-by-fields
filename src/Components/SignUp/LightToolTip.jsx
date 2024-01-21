@@ -11,6 +11,8 @@ const LightTooltip = styled(({ className, ...props }) => (
         fontSize: 12,
         maxWidth: 140,
         placement: "center",
+        textAlign: 'center', // Center the text
+
     },
 }));
 export default LightTooltip;
