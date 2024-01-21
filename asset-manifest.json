@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sign-up-by-fields/static/css/main.89aea102.css",
-    "main.js": "/sign-up-by-fields/static/js/main.f41e613a.js",
+    "main.css": "/sign-up-by-fields/static/css/main.173317d0.css",
+    "main.js": "/sign-up-by-fields/static/js/main.ce23d8b3.js",
     "static/js/787.88dfdeb5.chunk.js": "/sign-up-by-fields/static/js/787.88dfdeb5.chunk.js",
     "static/media/Iranian Sans.ttf": "/sign-up-by-fields/static/media/Iranian Sans.8c2ed8fb0154947263c5.ttf",
     "index.html": "/sign-up-by-fields/index.html",
-    "main.89aea102.css.map": "/sign-up-by-fields/static/css/main.89aea102.css.map",
-    "main.f41e613a.js.map": "/sign-up-by-fields/static/js/main.f41e613a.js.map",
+    "main.173317d0.css.map": "/sign-up-by-fields/static/css/main.173317d0.css.map",
+    "main.ce23d8b3.js.map": "/sign-up-by-fields/static/js/main.ce23d8b3.js.map",
     "787.88dfdeb5.chunk.js.map": "/sign-up-by-fields/static/js/787.88dfdeb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89aea102.css",
-    "static/js/main.f41e613a.js"
+    "static/css/main.173317d0.css",
+    "static/js/main.ce23d8b3.js"
   ]
 }
